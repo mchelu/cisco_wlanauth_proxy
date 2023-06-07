@@ -4,7 +4,7 @@ import requests
 
 def authenticate_to_wlc():
 
-#Change the url with the one used by your WLC and the username and password in the post_data
+#Change the url with the one used by your WLC and the username and password in the post_data. Of course the redirect_url of your choosing.
   
         url = "https://wlanauth.domain.com/login.html"
 
