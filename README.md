@@ -1,4 +1,4 @@
-#cisco_wlanauth_proxy
+# cisco_wlanauth_proxy
 
 This is a small utility that spins a web server which when accessed authenticates the machine to the web auth wireless guest network. It has the POST request needed to do authentication on the Cisco Wireless LAN Controller.
 I find it to be most useful when a device doesn't properly authenticate to the guest WLAN, more precisely old laptops (mostly old MacBooks). Works wonders if an external guest has issues and a cabled connection isn't available.
